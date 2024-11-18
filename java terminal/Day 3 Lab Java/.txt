@@ -1,0 +1,1 @@
+the whole purpose of todays lab question is to understand static variable and non static (or instance)

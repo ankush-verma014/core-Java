@@ -1,0 +1,12 @@
+class Ankush 
+{
+	public static void Ankush(){
+		int x = 100;
+		System.out.println(x);
+	}
+
+	public static void main(String[] args) 
+	{
+		Ankush();
+	}
+}
