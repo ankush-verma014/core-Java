@@ -38,6 +38,7 @@ class BankAccount {
         System.out.println("Account Number: " + accountNumber);
         System.out.println("Account Holder Name: " + accountHolderName);
         System.out.println("Current Balance: " + balance);
+
     }
 
     public static void main(String[] args) {
@@ -47,13 +48,13 @@ class BankAccount {
       
         account.accountNumber = 78635628;
         account.accountHolderName = "Kundan Kumar";
-        account.balance = 27678.89;
+        account.balance = 2000.89;
 
         account.displayAccountInfo();
 
-        account.deposit(2767);
+        account.deposit(1000);
 
-        account.withdraw(2345);
+        account.withdraw(1500);
 
         account.displayAccountInfo();
     }
